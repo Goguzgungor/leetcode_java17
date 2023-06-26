@@ -25,6 +25,8 @@ public class RomanToInteger{
             }
         }
         return sum;
+        //githuba kod initleme commandi
+
     }
     public HashMap<String,Integer> getRomanHashMap ()
     {

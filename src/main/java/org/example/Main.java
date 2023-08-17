@@ -2,13 +2,17 @@ package org.example;
 
 
 import questions.MergeTwoSortedLists;
+import questions.ReverseString;
+import questions.SortedSquares;
+
+import java.util.ArrayList;
+import java.util.List;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        MergeTwoSortedLists mergeTwoSortedLists = new MergeTwoSortedLists();
-        mergeTwoSortedLists.mergeTwoLists(new questions.sumoftwo.ListNode(1, new questions.sumoftwo.ListNode(2, new questions.sumoftwo.ListNode(4))),
-                new questions.sumoftwo.ListNode(1, new questions.sumoftwo.ListNode(3, new questions.sumoftwo.ListNode(4))));
+        SortedSquares sortedSquares = new SortedSquares();
+        sortedSquares.sortedSquares(new int[]{-4,-1,0,3,10});
     }
 }

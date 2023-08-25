@@ -1,9 +1,9 @@
 package org.example;
 
 
-import questions.MergeTwoSortedLists;
-import questions.ReverseString;
-import questions.SortedSquares;
+import questions.*;
+import questions.arrrays.GetAverages;
+import questions.arrrays.MinStartValue;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,7 +12,11 @@ import java.util.List;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        SortedSquares sortedSquares = new SortedSquares();
-        sortedSquares.sortedSquares(new int[]{-4,-1,0,3,10});
+        GetAverages getAverages = new GetAverages();
+        int[] sumList = getAverages.getAverages(new int[]{40527,53696,10730,66491,62141,83909,78635,18560},2);
+
+        for (int i = 0; i < sumList.length; i++) {
+            System.out.println(sumList[i]);
+        }
     }
 }

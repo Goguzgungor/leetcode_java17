@@ -3,6 +3,7 @@ package questions.queue;
 import java.util.ArrayList;
 import java.util.List;
 
+//https://leetcode.com/problems/number-of-recent-calls/
 class RecentCounter {
     private ArrayList<Integer> integers = new ArrayList<>();
     public RecentCounter() {
